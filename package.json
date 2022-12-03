@@ -1,0 +1,36 @@
+{
+  "name": "nest-template-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nest start --watch",
+    "preview": "nest start",
+    "start": "node dist/main.js",
+    "build": "nest build"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.1.5",
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^18.11.10",
+    "@types/passport-jwt": "^3.0.7",
+    "@types/passport-local": "^1.0.34",
+    "prisma": "^4.7.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.2.1",
+    "@nestjs/core": "^9.2.1",
+    "@nestjs/jwt": "^9.0.0",
+    "@nestjs/passport": "^9.0.0",
+    "@nestjs/platform-fastify": "^9.2.1",
+    "@prisma/client": "4.7.1",
+    "bcrypt": "^5.1.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.7",
+    "zod": "^3.19.1"
+  }
+}
